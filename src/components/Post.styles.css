@@ -1,0 +1,63 @@
+.post {
+  padding-top: 1.25rem;
+}
+
+.post__card {
+  font-family: Muli;
+  line-height: 24px;
+  background-color: var(--bg-gray);
+  border: 1px solid var(--gray);
+  box-shadow: var(--shadow, 0 0 #0000), var(--shadow, 0 0 #0000), var(--shadow);
+  border-radius: 8px;
+}
+
+.post .post__image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.post .post__image {
+  max-width: 100%;
+}
+
+.post .post__user-container {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.post .post__user-image-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.post .post__user-name span,
+.post .post__user-name a {
+  font-size: 16px;
+  color: var(--color-white);
+  padding-left: 8px;
+}
+
+.post .post__info {
+  padding: 1.25rem;
+  color: var(--color-white);
+}
+
+.post .post__title {
+  font-size: 18px;
+  color: var(--color-white);
+  line-height: 1.25em;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.post .post__tags,
+.post .post__likes {
+  font-size: 16px;
+  color: var(--color-white);
+  line-height: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}

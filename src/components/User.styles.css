@@ -1,0 +1,59 @@
+.user {
+  padding: 0;
+}
+
+.user__card {
+  font-family: Muli;
+  line-height: 24px;
+  background-color: var(--bg-gray);
+  border: 1px solid var(--gray);
+  box-shadow: var(--shadow, 0 0 #0000), var(--shadow, 0 0 #0000), var(--shadow);
+  border-radius: 8px;
+}
+
+.user .user__image {
+  max-width: 100%;
+}
+
+.user .user__user-container {
+  align-items: center;
+  padding: 8px 10px;
+}
+
+.user .user__user-name {
+  color: var(--color-white);
+}
+
+.user .user__user-image-circle {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user .user__user-name span {
+  font-size: 16px;
+  color: var(--color-white);
+  padding-left: 8px;
+}
+
+.user .user__info {
+  padding: 1.25rem;
+  color: var(--color-white);
+}
+
+.user .user__title {
+  font-size: 18px;
+  color: var(--color-white);
+  line-height: 1.25em;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.user .user__info-content {
+  font-size: 16px;
+  color: var(--color-white);
+  line-height: 1.25em;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}

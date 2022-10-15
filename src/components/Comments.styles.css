@@ -1,0 +1,31 @@
+.comments {
+  font-family: Muli;
+  line-height: 24px;
+  background-color: var(--bg-gray);
+  border: 1px solid var(--gray);
+  box-shadow: var(--shadow, 0 0 #0000), var(--shadow, 0 0 #0000), var(--shadow);
+  border-radius: 8px;
+  padding: 20px;
+  color: var(--color-white);
+}
+
+.comments .comments__item {
+  display: flex;
+  font-family: Muli;
+  line-height: 24px;
+  background-color: var(--bg-gray);
+  color: var(--color-white);
+}
+
+.comments .comments__item .comments__item-image {
+  width: 60px;
+  height: 60px;
+}
+
+.comments .comments__item .comments__item-info {
+    padding-left: 10px;
+}
+
+.comments .comments__item h5, p {
+    margin: 0;
+}

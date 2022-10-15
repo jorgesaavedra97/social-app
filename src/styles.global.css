@@ -1,0 +1,26 @@
+:root {
+  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --color-white: #ffffff;
+  --bg-gray: rgb(31, 41, 55);
+  --gray: rgb(55, 65, 81);
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Muli;
+  line-height: 24px;
+}
+
+a {
+  color: var(--color-white);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.link-filter {
+  color: var(--gray);
+}

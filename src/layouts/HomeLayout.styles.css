@@ -1,0 +1,28 @@
+.home-layout {
+  margin: 0;
+  padding: 0;
+}
+.home-layout .home-layout__navbar {
+  padding: 10px 16px;
+  font-family: Muli;
+  line-height: 24px;
+  background-color: var(--bg-gray);
+  color: var(--color-white);
+}
+
+.home-layout .home-layout__user-container {
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  justify-content: flex-end;
+}
+
+.home-layout .home-layout__user-image-circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.home-layout .home-layout__user-name {
+  margin-left: 16px;
+}
