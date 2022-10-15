@@ -1,3 +1,6 @@
+
+![Kapture 2022-10-15 at 13 51 49](https://user-images.githubusercontent.com/25853859/196003342-004edfdd-c9e7-4826-ba7d-a96bdffb05e2.gif)
+
 # Social App
 This app retreave info from the https://dummyapi.io/ free API to display this info in a SPA built on React and Redux
 
